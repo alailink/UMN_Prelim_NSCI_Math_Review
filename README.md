@@ -17,3 +17,20 @@ The ROC curve is the standard metric in part because in machine-learning classif
 A common practice is to report the 0.8 TPR and corresponding FPR.
 
 ## Cross Correlation
+![CC](https://github.com/alailink/UMN_Prelim_NSCI_Math_Review/blob/master/photos/Cross-correlation.gif)  
+Why do we need this metric in Neuroscience?  
+We cannot compare two spike trains directly, because we are looking at different neurons and possible different regions of the brain. But by *sliding* the spike trains across each other, we can determine if there is a relationship even if they are not firing at the same time.  
+
+How is the metric computed?
+* Take a reference spike train and a target spike train
+* slide the target across the reference, comparing only where the reference has neuron activity spikes
+* Take the sum at each point and graph it. Possibly normalize.
+* Y axis : coincidences / spikes / normalized counts
+* X axis : sampling point of *sliding* 
+
+![Singer W, Gray CM. Visual feature integration and the temporal correlation
+hypothesis. Ann. Rev. Neurosci. 18: 555-86, 1995.](https://github.com/alailink/UMN_Prelim_NSCI_Math_Review/blob/master/photos/neuron-cc.PNG)  
+The graphs on the left shows two spike trains that are highly correlated, as evidenced by the rise in coincidence near the center (but a rise anywhere would indicate correlation.)  
+The graphs on the right show spike trains that are not correlated, as evidenced by a relatively flat line throughout, showing only spurious, random correlations.
+
+
