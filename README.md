@@ -23,7 +23,7 @@ We cannot compare two spike trains directly, because we are looking at different
 
 How is the metric computed?
 * Take a reference spike train and a target spike train
-* slide the target across the reference, comparing only where the reference has neuron activity spikes
+* slide the target across the reference, comparing only where the reference has neuron activity spikes. This creates a histogram instead of a continuous plot (also possible just not what we want.)
 * Take the sum at each point and graph it. Possibly normalize.
 * Y axis : coincidences / spikes / normalized counts
 * X axis : sampling point of *sliding* 
@@ -33,4 +33,5 @@ hypothesis. Ann. Rev. Neurosci. 18: 555-86, 1995.](https://github.com/alailink/U
 The graphs on the left shows two spike trains that are highly correlated, as evidenced by the rise in coincidence near the center (but a rise anywhere would indicate correlation.)  
 The graphs on the right show spike trains that are not correlated, as evidenced by a relatively flat line throughout, showing only spurious, random correlations.
 
-
+Controls:  
+The standard way to create a negative control is to compare your cross-correlation histogram with mismatched trials, known as the "shift predictor".  This creates a histogram that shows spurious, non-random correlations inherent in the system you are measuring.
