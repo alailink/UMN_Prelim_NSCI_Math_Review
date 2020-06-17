@@ -35,3 +35,14 @@ The graphs on the right show spike trains that are not correlated, as evidenced 
 
 Controls:  
 The standard way to create a negative control is to compare your cross-correlation histogram with mismatched trials, known as the "shift predictor".  This creates a histogram that shows spurious, non-random correlations inherent in the system you are measuring.
+
+## Synchrony  
+Synchrony is a pretty name for cross-correlation of cell assemblies. As a coding mechanism, is still an open question with many people not convinced. Cell assemblies *dynamically* form and dissolve, sometimes called the dynamicist view. Ensembles and assemblies are synonymous. Important theoretical points:  
+* synchronized imputs have greater impact on post-synaptic neurons (temporal summation). Single neurons are noisy but many together become cohesive.
+* **many subthreshold neuronal spikes, when synchronized, can drive action potentials.** 
+* synchrony can be internally generated, not subject to sensory input. This differentiates it from contextual/anatomical models.
+* **cell assemblies can dynamically form and dissolve.**  
+
+Binocular Rivalry (such as in the chimera problem) are thought to reflect competition between neural assemblies that encode the red and green stimuli.  
+![chimera](https://github.com/alailink/UMN_Prelim_NSCI_Math_Review/blob/master/photos/chimera.PNG)  
+
