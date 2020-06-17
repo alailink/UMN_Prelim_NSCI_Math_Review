@@ -3,7 +3,7 @@ Review of mathematical neuroscience topics for the UMN Neurosci prelim
 
 ## ROC Curves
 ![ROC](https://github.com/alailink/UMN_Prelim_NSCI_Math_Review/blob/master/photos/ROC.gif)  
-*There is code uploaded for this that can be used to create an interactive GUI.*
+*ROC_GUI_2.py can be run offline to create an interactive GUI.*
 
 The ROC curve assumes a few things:
 * You have two distributions. In health sciences, this might be sick vs. healthy. In Neuroscience, this could be a 400Hz frequency vs. a 450Hz frequency.
