@@ -14,7 +14,11 @@ The ROC's usefulness is in this discrimination line and how you might want to al
 * For bio-identification, you might be okay with a low TPR, such as having to scan your phone fingerprint a few times. This is because you absolutely don't want anyone else able to get on your phone. In other words, you can decrease the FPR at the cost of decreasing the TPR.  
 
 The ROC curve is the standard metric in part because in machine-learning classification tasks, you can skew the TPR/FPR to make your research look better (harder when showing ROC). In addition, it's much like looking at a scatterplot instead of a bargraph. Scientists don't like the data summarized too much.  
-A common practice is to report the 0.8 TPR and corresponding FPR.
+A common practice is to report the 0.8 TPR and corresponding FPR.  
+
+Things we can learn (from Oxenham):
+* results from experiments of overlapping distributions implies there is no "threshold" for detection in auditory system
+* "sensitivity" is always the same. It is a function of the standard deviations and means of the distributions  
 
 ## Cross Correlation
 ![CC](https://github.com/alailink/UMN_Prelim_NSCI_Math_Review/blob/master/photos/Cross-correlation.gif)  
